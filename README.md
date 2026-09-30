@@ -1,88 +1,20 @@
-💍 Wedding Invitation
-A modern, elegant, and interactive digital wedding invitation website built with React, Vite, and Tailwind CSS.
-The invitation includes an animated opening cover, wedding event details, a live countdown, RSVP by email, falling petal effects, scroll reveal animations, and responsive light/dark themes.
-✨ Features
-- Elegant animated wedding invitation cover
-- Custom bride and groom names
-- Wedding date and blessing message
-- Poruwa ceremony and reception details
-- Live countdown to the wedding day
-- RSVP by email
-- Falling petal animation
-- Scroll reveal animations
-- Responsive design for mobile, tablet, and desktop
-- Automatic light and dark mode support
-- Accessibility-friendly reduced-motion support
-- GitHub Pages deployment support
-🛠️ Built With
-- React 18
-- Vite 5
-- Tailwind CSS 4
-- JavaScript / JSX
-- CSS Animations
-- GitHub Pages
-📁 Project Structure
-wedding-invitation-react/
-├── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-🚀 Getting Started
-1. Clone the repository
-git clone https://github.com/sana1211/Wedding-invitation.git
-2. Open the project folder
-cd Wedding-invitation
-3. Install dependencies
+# 💍 Wedding Invitation
+
+A beautiful and modern digital wedding invitation built with **React, Vite, and Tailwind CSS**.
+
+## ✨ Features
+- Elegant responsive design
+- Wedding event details
+- Live countdown
+- RSVP section
+- Smooth animations
+- Mobile friendly
+
+## 🛠️ Tech Stack
+React • Vite • Tailwind CSS • JavaScript
+
+## 🚀 Run Project
+
+```bash
 npm install
-4. Start the development server
 npm run dev
-Then open the local URL shown in the terminal.
-📝 Customize Wedding Details
-Open:
-src/App.jsx
-Edit the WEDDING object:
-const WEDDING = {
-  bride: "Nimali",
-  groom: "Dinesh",
-  blessing: "With the blessings of the Triple Gem and our beloved parents",
-  dateText: "Saturday, 20 December 2026",
-  countdownTo: "2026-12-20T09:47:00+05:30",
-  rsvpBy: "1 December 2026",
-  rsvpEmail: "rsvp@example.com",
-};
-You can also update the ceremony and reception details inside the events array.
-📦 Build for Production
-npm run build
-The optimized production files will be generated inside the dist folder.
-🌐 Deploy to GitHub Pages
-The project is configured for:
-https://sana1211.github.io/Wedding-invitation/
-Make sure vite.config.js contains:
-export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: "/Wedding-invitation/",
-})
-Then build and deploy the project to the gh-pages branch.
-🔗 Live Demo
-View Wedding Invitation
-📱 Responsive Design
-The invitation is designed to work across:
-- Mobile phones
-- Tablets
-- Laptops
-- Desktop screens
-🎨 Design Style
-The interface uses a romantic and elegant visual style featuring:
-- Gold accents
-- Deep green tones
-- Rose typography
-- Lotus-inspired line artwork
-- Soft motion effects
-- Minimal wedding-card composition
-📄 License
-This project is intended for personal and educational use.
-Made with ❤️ using React for a beautiful wedding celebration.
